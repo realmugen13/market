@@ -1,0 +1,70 @@
+.main-bg {
+              background-image: url(./images/bg.png);
+              background-size: cover;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              margin: 0 auto;
+          }
+
+          .main-title {
+              background: linear-gradient(89.86deg, #8A94AB 0.13%, rgba(138, 148, 171, 0) 99.89%);
+              backdrop-filter: blur(4.5px);
+              max-width: max-content;
+              h1{
+              max-width: 570px;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 500;
+              font-size: 40px;
+              line-height: 110%;
+              color: #FFFFFF;
+              }
+              h2{
+              margin-top: 30px;
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 800;
+              font-size: 30px;
+              line-height: 150%;
+              text-transform: uppercase;
+              color: #FFFFFF;
+          
+              }
+          }
+          .mainbtn {
+              margin-top: 50px;
+              max-width: 250px;
+              border: 1px solid #FFC85E;
+              padding: 25px;
+              background: #FFC85E;
+              border-radius: 80px;
+          }
+          .main-sentence {
+              display: flex;
+              margin-top: 50px;
+          }
+          .main-box{
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              h1{
+              font-family: 'Inter';
+              font-style: normal;
+              font-weight: 400;
+              font-size: 14px;
+              line-height: 150%;
+              color: #FFFFFF;
+              }
+              img{    
+                  height: 39px;
+                  margin: 10px;
+              }
+          }
+
+          .stock {
+            padding: 20px;
+            span{
+                color: orange;
+            }
+        }
